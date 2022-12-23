@@ -1,10 +1,12 @@
 import styled from "styled-components";
 
 export const Header = styled.header`
-	width: 100vw;
 	background-color: ${(props) => props.theme.primaryColor};
-	padding: 0.5rem 0;
 	box-shadow: ${({ theme }) => theme.headerBoxShadow};
+	position: sticky;
+	padding: 0.5rem;
+	top: 0;
+	z-index: 1;
 `;
 
 export const HeaderContentContainer = styled.div`
