@@ -33,7 +33,7 @@ export const Logo = styled.div`
 export const HeaderNav = styled.nav`
 	& ul {
 		display: flex;
-		gap: 1rem;
+		gap: 1.5rem;
 	}
 
 	& a {
@@ -41,8 +41,26 @@ export const HeaderNav = styled.nav`
 		font-size: 1rem;
 		font-weight: 500;
 	}
+`;
 
-	& a:hover {
-		color: ${({ theme }) => theme.mainColor};
+export const Link = styled.a`
+	position: relative;
+	display: block;
+	&::after {
+		content: "";
+		position: absolute;
+		width: 100%;
+		background-color: red;
+		transform: scaleX(0);
+		height: 1px;
+		bottom: -7px;
+		left: 0;
+		background: linear-gradient(270deg, ${({theme}) => theme.mainColor} 0%, #17161d 100%);
+		transform-origin: bottom right;
+		transition: transform 0.5s cubic-bezier(0.86, 0, 0.07, 1);
+	}
+	&:hover::after {
+		transform: scaleX(1);
+		transform-origin: bottom left;
 	}
 `;

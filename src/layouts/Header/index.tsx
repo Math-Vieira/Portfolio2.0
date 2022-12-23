@@ -13,19 +13,20 @@ const Header: React.FC = () => {
 				<S.HeaderNav>
 					<ul>
 						<li>
-							<a href="#start">Início</a>
+							<S.Link href="#start">Início</S.Link>
 						</li>
 						<li>
-							<a href="#aboutMe">Sobre mim</a>
+							<S.Link href="#aboutMe">Sobre mim</S.Link>
 						</li>
 						<li>
-							<a href="#projects">Projetos</a>
+							<S.Link href="#projects">Projetos</S.Link>
 						</li>
 						<li>
-							<a href="#courses">Cursos</a>
-							
+							<S.Link href="#courses">Cursos</S.Link>
 						</li>
-						<li><a href="#skills">Habilidades</a></li>
+						<li>
+							<S.Link href="#skills">Habilidades</S.Link>
+						</li>
 					</ul>
 				</S.HeaderNav>
 			</S.HeaderContentContainer>
