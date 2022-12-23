@@ -1,12 +1,9 @@
-import React from 'react';
-import './global.css';
+import React from "react";
+import "./global.css";
+import RountesApp from "./routes";
 
-function App() {
-  return (
-    <div className="app">
-     
-    </div>
-  );
-}
+const App: React.FC = () => {
+	return <RountesApp />;
+};
 
 export default App;
