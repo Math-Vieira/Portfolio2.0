@@ -1,9 +1,13 @@
-import React from "react";
 import "./global.css";
-import RountesApp from "./routes";
+import RoutesApp from "./routes";
+import { AppContextProvider } from "./context/AppContext";
 
-const App: React.FC = () => {
-	return <RountesApp />;
+const App = () => {
+	return (
+		<AppContextProvider>
+			<RoutesApp />
+		</AppContextProvider>
+	);
 };
 
 export default App;

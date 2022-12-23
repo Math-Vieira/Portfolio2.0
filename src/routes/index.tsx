@@ -5,7 +5,7 @@ import Header from "../layouts/Header";
 import Home from "../pages/Home";
 import NotFound from "../pages/NotFound";
 
-const RoutesApp: React.FC = () => {
+const RoutesApp = () => {
 	return (
 		<BrowserRouter>
 			<Header />

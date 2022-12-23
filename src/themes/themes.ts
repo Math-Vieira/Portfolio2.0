@@ -1,4 +1,15 @@
-export const darkTheme = {
+export type ThemeType = {
+	themeId: number;
+	primaryColor: string;
+	secondaryColor: string;
+	tertiaryColor: string;
+	quaternaryColor: string;
+	headerBoxShadow: string;
+	mainColor: string;
+	textColor: string;
+};
+
+export const darkTheme: ThemeType = {
 	themeId: 1,
 	primaryColor: "#0B0B0B",
 	secondaryColor: "#0F0F0F",

@@ -1,6 +1,12 @@
 import { useState } from "react";
 import axios, { RawAxiosRequestHeaders, AxiosResponse } from "axios";
 
+export type RequestStates = {
+	data: object | null;
+	error: object | null;
+	loading: boolean | null;
+};
+
 type Request = {
 	url: string;
 	method: string;
@@ -12,9 +18,9 @@ const API = "............";
 axios.defaults.baseURL = API;
 
 const useAxios = () => {
-	const [data, setData] = useState<object | null>(null);
-	const [error, setError] = useState<object | null>(null);
-	const [loading, setLoading] = useState<boolean | null>(null);
+	const [data, setData] = useState<RequestStates["data"]>(null);
+	const [error, setError] = useState<RequestStates["error"]>(null);
+	const [loading, setLoading] = useState<RequestStates["loading"]>(null);
 
 	const request = async ({
 		url,

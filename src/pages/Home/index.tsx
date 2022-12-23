@@ -1,7 +1,7 @@
 import React from "react";
 import * as S from "./style";
 
-const Home: React.FC = () => {
+const Home = () => {
 	return <div>Home</div>;
 };
 
