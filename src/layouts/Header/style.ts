@@ -3,7 +3,8 @@ import styled from "styled-components";
 export const Header = styled.header`
 	background-color: ${(props) => props.theme.primaryColor};
 	box-shadow: ${({ theme }) => theme.headerBoxShadow};
-	position: sticky;
+	position: fixed;
+	width: 100%;
 	padding: 0.5rem;
 	top: 0;
 	z-index: 1;

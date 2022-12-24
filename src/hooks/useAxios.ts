@@ -30,10 +30,10 @@ const useAxios = () => {
 			"Content-Type": "application/json",
 		},
 	}: Request) => {
-		let sucessRequest: boolean;
+		let successRequest: boolean;
 		try {
 			setLoading(true);
-			setError(null);
+			setError(null)
 			setData(null);
 			const response: AxiosResponse<any, any> = await axios(url, {
 				method: method,
@@ -41,13 +41,13 @@ const useAxios = () => {
 				data: body,
 			});
 			setData(response.data);
-			sucessRequest = true;
+			successRequest = true;
 		} catch (err: any) {
-			sucessRequest = false;
+			successRequest = false;
 			setError(err);
 		} finally {
 			setLoading(false);
-			return sucessRequest!;
+			return successRequest!;
 		}
 	};
 	return { data, error, loading, request, setData, setError, setLoading };
