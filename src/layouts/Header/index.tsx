@@ -1,7 +1,7 @@
 import React from "react";
 import * as S from "./style";
 
-const Header: React.FC = () => {
+const Header = () => {
 	return (
 		<S.Header>
 			<S.HeaderContentContainer className="centralizer">
