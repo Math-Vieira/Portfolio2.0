@@ -35,7 +35,7 @@ const Home = () => {
                                 <SocialMediaBox url='https://github.com/math-vieira/'>
                                     <GitHub />
                                 </SocialMediaBox>
-                                <SocialMediaBox url='https://www.instagram.com/matheus.elric/'>
+                                <SocialMediaBox url='https://www.instagram.com/devfourdev/'>
                                     <Instagram />
                                 </SocialMediaBox>                               
                             </S.SocialMediaContainer>
