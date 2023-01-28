@@ -10,8 +10,8 @@ export type RequestStates = {
 type Request = {
 	url: string;
 	method: string;
-	body: object | null;
-	headers: RawAxiosRequestHeaders;
+	body?: object | null;
+	headers?: RawAxiosRequestHeaders;
 };
 
 const API = "............";
