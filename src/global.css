@@ -1,29 +1,29 @@
-@import url('https://fonts.googleapis.com/css2?family=Saira&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Saira&display=swap");
 
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	scroll-behavior: smooth;
-	font-family: 'Saira', sans-serif;
-	transition: 0.3s ease;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Saira", sans-serif;
+    transition: 0.3s ease;
 }
 
 a {
-	text-decoration: none;
+    text-decoration: none;
 }
 
 ul {
-	list-style: none;
+    list-style: none;
 }
 
 img {
-	display: block;
-	max-width: 100%;
+    display: block;
+    max-width: 100%;
 }
 
 .centralizer {
-	max-width: 1000px;
-	margin: 0 auto;
-	padding: 0 15px;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
