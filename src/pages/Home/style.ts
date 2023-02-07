@@ -1,5 +1,6 @@
 import styled, { keyframes } from "styled-components";
 
+//section 1
 const flashing = keyframes`
     0%, 100% {
         opacity: 1;
@@ -7,12 +8,6 @@ const flashing = keyframes`
     50% {
         opacity: 0;
     }
-`;
-
-const boxShadow = keyframes`
-	0%, 100% {
-		box-shadow: initial;
-	}
 `;
 
 export const Main = styled.main`
@@ -38,6 +33,9 @@ export const MainContentContainer = styled.div`
 export const Name = styled.h1`
     font-size: 3.7rem;
     color: ${({ theme }) => theme.textColor};
+    @media (max-width: 900px) {
+        font-size: 3rem;
+    }
 `;
 
 export const Occupation = styled.p`
@@ -69,3 +67,9 @@ export const MyInfoContainer = styled.div`
         gap: 10px;
     }
 `;
+
+//section 2
+export const Section = styled.section`
+    background-color: ${({ theme }) => theme.primaryColor};
+    color: red;
+`
