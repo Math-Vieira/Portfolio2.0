@@ -57,6 +57,15 @@ export const SocialMediaContainer = styled.div`
     display: flex;
     gap: 1rem;
     margin-left: 2px;
-`
+`;
 
-
+export const MyInfoContainer = styled.div`
+    @media (max-width: 900px) {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+`;
