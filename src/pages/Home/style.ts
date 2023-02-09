@@ -69,8 +69,9 @@ export const MyInfoContainer = styled.div`
 `;
 
 //section 2
-export const Section = styled.section`
-    background-color: ${({ theme }) => theme.primaryColor};
+export const Section = styled.section<{ secondary?: boolean }>`
+    background-color: ${({ theme, secondary }) =>
+        !secondary ? theme.primaryColor : theme.secondaryColor};
     color: ${({ theme }) => theme.textColor};
 `;
 
@@ -81,6 +82,10 @@ export const AboutMeContainer = styled.div`
     font-size: 1.2rem;
     align-items: center;
     padding-bottom: 5rem;
+    & .svgContainer {
+        display: flex;
+        justify-content: center;
+    }
     @media (max-width: 900px) {
         width: 80%;
         margin: 0 auto;
