@@ -71,5 +71,20 @@ export const MyInfoContainer = styled.div`
 //section 2
 export const Section = styled.section`
     background-color: ${({ theme }) => theme.primaryColor};
-    color: red;
-`
+    color: ${({ theme }) => theme.textColor};
+`;
+
+export const AboutMeContainer = styled.div`
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 1.5rem;
+    font-size: 1.2rem;
+    align-items: center;
+    padding-bottom: 5rem;
+    @media (max-width: 900px) {
+        width: 80%;
+        margin: 0 auto;
+        display: block;
+        text-align: center;
+    }
+`;
