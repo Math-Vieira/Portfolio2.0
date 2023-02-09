@@ -27,3 +27,16 @@ img {
     margin: 0 auto;
     padding: 0 15px;
 }
+
+.rotate {
+    animation: spin 10s linear infinite;
+  }
+  
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
