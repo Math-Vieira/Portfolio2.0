@@ -73,8 +73,18 @@ const Home = () => {
                                 de um software.
                             </p>
                         </div>
-                        {!isMobile && <Circle />}
+                        {!isMobile && (
+                            <div className="svgContainer">
+                                <Circle />
+                            </div>
+                        )}
                     </S.AboutMeContainer>
+                </div>
+            </S.Section>
+            <S.Section secondary={true} id="projects">
+                <div className="centralizer">
+                    <H2>PROJETOS</H2>
+                    
                 </div>
             </S.Section>
         </>
