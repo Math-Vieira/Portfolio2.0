@@ -73,6 +73,14 @@ export const Section = styled.section<{ secondary?: boolean }>`
     background-color: ${({ theme, secondary }) =>
         !secondary ? theme.primaryColor : theme.secondaryColor};
     color: ${({ theme }) => theme.textColor};
+    &
+        .react-3d-carousel
+        .slider-container
+        .slider-content
+        .slider-single
+        .slider-single-content {
+        box-shadow:none;
+    }
 `;
 
 export const AboutMeContainer = styled.div`

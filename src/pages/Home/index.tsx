@@ -9,6 +9,7 @@ import { ReactComponent as Instagram } from "../../assets/svg/instagram.svg";
 import useMediaQuery from "../../hooks/useMediaQuery";
 import H2 from "../../components/H2";
 import Circle from "../../assets/svgComponents/Circle";
+import { Carousel } from "3d-react-carousal";
 
 const Home = () => {
     const [isInitial, setIsInitial] = useState<boolean>(true);
@@ -84,8 +85,15 @@ const Home = () => {
             <S.Section secondary={true} id="projects">
                 <div className="centralizer">
                     <H2>PROJETOS</H2>
-                    
                 </div>
+                <Carousel
+                    autoplay={true}
+                    interval={4000}
+                    arrows={false}
+                    slides={[
+                        
+                    ]}
+                />
             </S.Section>
         </>
     );
