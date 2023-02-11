@@ -5,4 +5,3 @@ declare module "*.svg" {
     export default src;
 }
 
-declare module "3d-react-carousal";
