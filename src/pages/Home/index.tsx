@@ -9,7 +9,8 @@ import { ReactComponent as Instagram } from "../../assets/svg/instagram.svg";
 import useMediaQuery from "../../hooks/useMediaQuery";
 import H2 from "../../components/H2";
 import Circle from "../../assets/svgComponents/Circle";
-import { Carousel } from "3d-react-carousal";
+import { Carousel } from "../../components/Carousel";
+import ProjectCard from "../../components/ProjectCard";
 
 const Home = () => {
     const [isInitial, setIsInitial] = useState<boolean>(true);
@@ -91,7 +92,10 @@ const Home = () => {
                     interval={4000}
                     arrows={false}
                     slides={[
-                        
+                        <ProjectCard projectName="a"/>,
+                        <ProjectCard projectName="b"/>,
+                        <ProjectCard projectName="c"/>,
+                        <ProjectCard projectName="d"/>
                     ]}
                 />
             </S.Section>
