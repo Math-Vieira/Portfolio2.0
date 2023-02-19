@@ -33,6 +33,20 @@ img {
     animation: spin 10s linear infinite;
 }
 
+.animeLeft {
+    opacity: 0;
+    transform: translateX(-20px);
+    animation: animeLeft 0.3s ease-in-out forwards;
+    animation-delay: 2000;
+  }
+  
+  @keyframes animeLeft {
+    to {
+      opacity: 1;
+      transform: initial;
+    }
+  }
+
 @keyframes spin {
     from {
         transform: rotate(0deg);
