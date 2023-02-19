@@ -69,17 +69,21 @@ export const MyInfoContainer = styled.div`
 `;
 
 //section 2
-export const Section = styled.section<{ secondary?: boolean }>`
+export const Section = styled.section<{
+    secondary?: boolean;
+    padding?: number;
+}>`
     background-color: ${({ theme, secondary }) =>
         !secondary ? theme.primaryColor : theme.secondaryColor};
     color: ${({ theme }) => theme.textColor};
+    padding-bottom: ${({padding}) => padding + 'rem'} ;
     &
         .react-3d-carousel
         .slider-container
         .slider-content
         .slider-single
         .slider-single-content {
-        box-shadow:none;
+        box-shadow: none;
     }
 `;
 
