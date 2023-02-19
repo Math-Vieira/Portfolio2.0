@@ -69,23 +69,6 @@ export const MyInfoContainer = styled.div`
 `;
 
 //section 2
-export const Section = styled.section<{
-    secondary?: boolean;
-    padding?: number;
-}>`
-    background-color: ${({ theme, secondary }) =>
-        !secondary ? theme.primaryColor : theme.secondaryColor};
-    color: ${({ theme }) => theme.textColor};
-    padding-bottom: ${({padding}) => padding + 'rem'} ;
-    &
-        .react-3d-carousel
-        .slider-container
-        .slider-content
-        .slider-single
-        .slider-single-content {
-        box-shadow: none;
-    }
-`;
 
 export const AboutMeContainer = styled.div`
     display: grid;
@@ -103,5 +86,24 @@ export const AboutMeContainer = styled.div`
         margin: 0 auto;
         display: block;
         text-align: center;
+    }
+`;
+
+export const CarouselContainer = styled.div`
+    min-height: 28rem;
+`;
+
+export const Section = styled.section<{ padding?: number; secondary?: boolean }>`
+    background-color: ${({ theme, secondary }) =>
+        !secondary ? theme.primaryColor : theme.secondaryColor};
+    color: ${({ theme }) => theme.textColor};
+    padding-bottom: ${({ padding }) => padding + "rem"};
+    &
+        .react-3d-carousel
+        .slider-container
+        .slider-content
+        .slider-single
+        .slider-single-content {
+        box-shadow: none;
     }
 `;
