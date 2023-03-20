@@ -1,4 +1,4 @@
-export type ThemeType = {
+export interface ThemeType {
     themeId: number;
     primaryColor: string;
     secondaryColor: string;
@@ -8,7 +8,8 @@ export type ThemeType = {
     mainColor: string;
     textColor: string;
     boxShadowItem: string;
-};
+    selectItemArrow: string;
+}
 
 export const darkTheme: ThemeType = {
     themeId: 1,
@@ -20,4 +21,5 @@ export const darkTheme: ThemeType = {
     mainColor: "#00AD6F",
     textColor: "#FFFFFF",
     boxShadowItem: "0px 4px 4px rgba(0, 173, 111, 0.58)",
+    selectItemArrow: "#FFF",
 };
