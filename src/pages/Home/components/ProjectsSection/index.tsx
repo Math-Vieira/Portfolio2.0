@@ -2,10 +2,17 @@ import * as S from "../../style";
 import H2 from "../../../../components/H2";
 import { Carousel } from "../../../../components/Carousel";
 import ProjectCard from "../../../../components/ProjectCard";
+import portData from "./portData.json";
 
-interface MainComponent {
-    isMobile: boolean;
-}
+const projectCards = portData.projects.map(e => (
+    <ProjectCard
+        projectType={e.projectType}
+        projectName={e.projectName}
+        projectRepo={e.projectRepo}
+        projectUrl={e.projectUrl}
+        status={e.status}
+    />
+));
 
 const ProjectsSection = () => {
     return (
@@ -17,28 +24,7 @@ const ProjectsSection = () => {
                 <Carousel
                     interval={4000}
                     arrows={false}
-                    slides={[
-                        <ProjectCard
-                            projectType="Front-end"
-                            projectName="Portfólio 2.0"
-                            projectRepo="https://github.com/Math-Vieira/Portfolio2.0"
-                            projectUrl="https://portfolio2-0-lime.vercel.app/"
-                            status="Em andamento"
-                        />,
-                        <ProjectCard
-                            projectType="Front-end"
-                            projectName="Deezer app"
-                            projectRepo="https://github.com/Math-Vieira/deezer-app"
-                            projectUrl="https://deezer-app-mv.vercel.app/"
-                            status="Concluído"
-                        />,
-                        <ProjectCard
-                            projectType="Back-end"
-                            projectName="Deezer api consumer"
-                            projectRepo="https://github.com/Math-Vieira/deezer-api-consumer"
-                            status="Concluído"
-                        />,
-                    ]}
+                    slides={projectCards}
                 />
             </S.CarouselContainer>
         </S.Section>

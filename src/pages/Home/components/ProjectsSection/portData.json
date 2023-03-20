@@ -1,0 +1,32 @@
+{
+    "projects": [
+        {
+            "projectType": "Front-end",
+            "projectName": "Portfólio 2.0",
+            "projectRepo": "https://github.com/Math-Vieira/Portfolio2.0",
+            "projectUrl": "https://portfolio2-0-lime.vercel.app/",
+            "status": "Em andamento"
+        },
+        {
+            "projectType": "Front-end",
+            "projectName": "Deezer app",
+            "projectRepo": "https://github.com/Math-Vieira/deezer-app",
+            "projectUrl": "https://deezer-app-mv.vercel.app/",
+            "status": "Concluído"
+        },
+        {
+            "projectType": "Back-end",
+            "projectName": "Deezer api consumer",
+            "projectRepo": "https://github.com/Math-Vieira/deezer-api-consumer",
+            "projectUrl": "",
+            "status": "Concluído"
+        }, 
+        {
+            "projectType": "Back-end",
+            "projectName": "Clean arch API",
+            "projectRepo": "https://github.com/Math-Vieira/api-clean-arch",
+            "projectUrl": "",
+            "status": "Em andamento"
+        }
+    ]
+}
