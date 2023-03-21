@@ -64,24 +64,25 @@ export function Carousel(props) {
     }, [slides, slideCurrent]);
 
     const slideRight = () => {
-        let preactiveSlide;
-        let proactiveSlide;
-        let slideCurrentLoc = slideCurrent;
-
-        const activeClass = "slider-single active";
-        const slide = [...slides];
         if (slideTotal > 1) {
+            let preactiveSlide;
+            let proactiveSlide;
+            let slideCurrentLoc = slideCurrent;
+            const slide = [...slides];
             if (slideCurrentLoc < slideTotal) {
                 slideCurrentLoc++;
             } else {
                 slideCurrentLoc = 0;
             }
+
             if (slideCurrentLoc > 0) {
                 preactiveSlide = slide[slideCurrentLoc - 1];
             } else {
                 preactiveSlide = slide[slideTotal];
             }
-            const activeSlide = slide[slideCurrentLoc];
+
+            let activeSlide = slide[slideCurrentLoc];
+
             if (slideCurrentLoc < slideTotal) {
                 proactiveSlide = slide[slideCurrentLoc + 1];
             } else {
@@ -93,15 +94,17 @@ export function Carousel(props) {
                     slid.class = "slider-single proactivede";
                 }
                 if (slid.class.includes("preactive")) {
-                    slid.class = "slider-single preactivede";
+                    slid.class = "slider-single proactivede";
                 }
             });
 
             preactiveSlide.class = "slider-single preactive";
-            activeSlide.class = activeClass;
+            activeSlide.class = "slider-single active";
             proactiveSlide.class = "slider-single proactive";
+
             setSlides(slide);
             setSlideCurrent(slideCurrentLoc);
+            props.onSlideChange(slideCurrentLoc);
 
             if (
                 document.getElementsByClassName("slider-single active").length >
@@ -119,13 +122,9 @@ export function Carousel(props) {
                     }
                 }, 500);
             }
-            props.onSlideChange(slideCurrentLoc);
-        } else if (slide[0] && slide[0].class !== activeClass) {
-            slide[0].class = activeClass;
-            setSlides(slide);
-            setSlideCurrent(0);
         }
     };
+
     const slideLeft = () => {
         if (slideTotal > 1) {
             let preactiveSlide;
