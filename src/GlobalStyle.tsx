@@ -3,10 +3,12 @@ import { createGlobalStyle } from "styled-components";
 const GlobalStyle = createGlobalStyle`
  .swiper-button-prev {
     color:  ${props => props.theme.selectItemArrow};
+    left: 0;
 }
 
 .swiper-button-next {
     color:  ${props => props.theme.selectItemArrow};
+    right: 0;
 }
 .mySmokeSwiper {
     position: relative;
