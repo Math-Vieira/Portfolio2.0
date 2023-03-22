@@ -1,0 +1,62 @@
+{
+    "courses": [
+        {
+            "courseName": "JavaScript Completo ES6",
+            "institution": "Origamid",
+            "duration": "74 horas",
+            "instructor": "André Rafael",
+            "certificate": "https://www.origamid.com/certificate/fb65f564",
+            "conclusion": "2022"
+        },
+        {
+            "courseName": "Understanding TypeScript",
+            "institution": "Udemy",
+            "duration": "15 horas",
+            "instructor": "Maximilian Schwarzmüller",
+            "certificate": "https://www.udemy.com/certificate/UC-550ce2fa-9324-4a29-bc46-c36cf7264301/",
+            "conclusion": "2022"
+        },
+        {
+            "courseName": "Node.js do Zero a Maestria",
+            "institution": "Udemy",
+            "duration": "38 horas",
+            "instructor": "Matheus Battisti",
+            "certificate": "https://www.udemy.com/certificate/UC-ad929d40-b221-4d22-a531-7bf32d8359b5/",
+            "conclusion": "2023"
+        },
+        {
+            "courseName": "Redux com react",
+            "institution": "Origamid",
+            "duration": "16 horas",
+            "instructor": "André Rafael",
+            "certificate": "https://www.origamid.com/certificate/8ea8d936",
+            "conclusion": "2022"
+        },
+        {
+            "courseName": "React completo - Origamid",
+            "institution": "Origamid",
+            "duration": "36 horas",
+            "instructor": "André Rafael",
+            "certificate": "https://www.origamid.com/certificate/bcea3d19",
+            "conclusion": "2022"
+        },
+        {
+            "courseName": "React - The Complete Guide",
+            "institution": "Udemy",
+            "duration": "48 horas",
+            "instructor": "Maximilian Schwarzmüller",
+            "certificate": "https://www.udemy.com/certificate/UC-1a327c69-16ef-45c6-80ee-94c8c5b8965a/",
+            "conclusion": "2022"
+        },
+        {
+            "courseName": "SQL do básico ao avançado",
+            "institution": "Udemy",
+            "duration": "17 horas",
+            "instructor": "Matheus Battisti",
+            "certificate": "https://www.udemy.com/certificate/UC-e049f9d2-32ef-42f6-a0d9-d300df7425a0/",
+            "conclusion": "2022"
+        }
+        
+    ]
+}
+

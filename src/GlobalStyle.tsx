@@ -40,6 +40,18 @@ const GlobalStyle = createGlobalStyle`
     z-index: 2;
     box-shadow: 0px 0px 20px 20px ${props => props.theme.primaryColor};
 }
+
+.d-flex {
+    display: flex;
+}
+
+.j-center {
+    justify-content: center;
+}
+
+.margin-5px-top-bottom {
+    margin: 5px 0;
+}
 `;
 
 export default GlobalStyle;
