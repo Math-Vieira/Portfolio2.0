@@ -38,6 +38,7 @@ export const ProjectType = styled.div`
     position: absolute;
     top: 0.5rem;
     right: 0.7rem;
+    user-select: none;
 `;
 
 export const ProjectStatus = styled.div`
@@ -46,6 +47,7 @@ export const ProjectStatus = styled.div`
     position: absolute;
     bottom: 0.5rem;
     left: 0.7rem;
+    user-select: none;
 `;
 
 export const ProjectName = styled.h3`
@@ -56,6 +58,7 @@ export const ProjectName = styled.h3`
     @media (max-width: 500px) {
         font-size: 1.5rem;
     }
+    user-select: none;
 `;
 
 export const InfoContainer = styled.ul`
@@ -66,9 +69,11 @@ export const InfoContainer = styled.ul`
     & li a {
         color: ${({ theme }) => theme.textColor};
         font-size: 1.5rem;
+        user-select: none;
     }
 
     & li a:hover {
         color: ${({ theme }) => theme.mainColor};
+        user-select: none;
     }
 `;
