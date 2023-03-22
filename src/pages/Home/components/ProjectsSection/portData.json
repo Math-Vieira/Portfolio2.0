@@ -27,6 +27,13 @@
             "projectRepo": "https://github.com/Math-Vieira/api-clean-arch",
             "projectUrl": "",
             "status": "Em andamento"
+        },
+        {
+            "projectType": "Front-end",
+            "projectName": "Countries",
+            "projectRepo": "https://github.com/Math-Vieira/countries",
+            "projectUrl": "https://countries-math-vieira.vercel.app/",
+            "status": "Concluído"
         }
     ]
 }
