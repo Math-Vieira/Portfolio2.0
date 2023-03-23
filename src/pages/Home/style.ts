@@ -15,6 +15,21 @@ export const Main = styled.main`
     background-color: ${({ theme }) => theme.secondaryColor};
 `;
 
+export const MainImgContainer = styled.div`
+    display: flex;
+    position: relative;
+    &::before {
+        position: absolute;
+        border-radius: 100%;
+        content: "";
+        width: 100%;
+        height: 100%;
+        background-color: ${({ theme }) => theme.mainColor};
+        opacity: 0.2;
+        filter: blur(4rem);
+    }
+`
+
 export const MainContentContainer = styled.div`
     width: 100%;
     min-height: 100vh;
@@ -42,6 +57,8 @@ export const Occupation = styled.p`
     color: ${({ theme }) => theme.mainColor};
     font-size: 2rem;
     margin-top: -1.5rem;
+    position: relative;
+    text-shadow: 0 0 10px ${({ theme }) => theme.mainColor};
 
     &::after {
         content: "|";

@@ -47,7 +47,11 @@ const MainComponent = ({ isMobile }: MainComponentContract) => {
                                 </SocialMediaBox>
                             </S.SocialMediaContainer>
                         </S.MyInfoContainer>
-                        {!isMobile && <MainLogo />}
+                        {!isMobile && (
+                            <S.MainImgContainer>
+                                <MainLogo />
+                            </S.MainImgContainer>
+                        )}
                     </div>
                 </S.MainContentContainer>
             </div>
