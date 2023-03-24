@@ -21,7 +21,7 @@ const coursesSlideArray = coursesJson.courses.map(e => (
 const CoursesSection = () => {
     return (
         <S.Section id="courses">
-            <div className="centralizer">
+            <div className="centralizer pb-5">
                 <H2>Cursos</H2>
                 <Swiper
                     navigation={true}

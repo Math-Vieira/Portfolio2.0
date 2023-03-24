@@ -14,6 +14,10 @@ const GlobalStyle = createGlobalStyle`
     position: relative;
 }
 
+.pb-5 {
+    padding-bottom: 5rem;
+}
+
 .mySmokeSwiper::before {
     content: '';
     height: 20px;
