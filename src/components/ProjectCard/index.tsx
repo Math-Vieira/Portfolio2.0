@@ -29,28 +29,33 @@ const ProjectCard = (props: ProjectInterface) => {
                     {props.projectName}
                 </S.ProjectName>
             ) : (
-                <S.InfoContainer className="animeLeft">
-                    <li>
-                        <a
-                            href={props.projectRepo}
-                            target="_blank"
-                            rel="noreferrer"
-                        >
-                            Repositório
-                        </a>
-                    </li>
-                    {props.projectUrl && (
+                <>
+                    <S.ProjectNameAfterHover className="animeLeft">
+                        {props.projectName}
+                    </S.ProjectNameAfterHover>
+                    <S.InfoContainer className="animeLeft">
                         <li>
                             <a
-                                href={props.projectUrl}
+                                href={props.projectRepo}
                                 target="_blank"
                                 rel="noreferrer"
                             >
-                                Aplicação no ar
+                                Repositório
                             </a>
                         </li>
-                    )}
-                </S.InfoContainer>
+                        {props.projectUrl && (
+                            <li>
+                                <a
+                                    href={props.projectUrl}
+                                    target="_blank"
+                                    rel="noreferrer"
+                                >
+                                    Aplicação no ar
+                                </a>
+                            </li>
+                        )}
+                    </S.InfoContainer>
+                </>
             )}
         </S.ProjectContainer>
     );

@@ -77,3 +77,9 @@ export const InfoContainer = styled.ul`
         user-select: none;
     }
 `;
+
+export const ProjectNameAfterHover = styled.div`
+    color: ${({ theme }) => theme.mainColor};
+    font-size: 2rem;
+    letter-spacing: 2px;
+`;
