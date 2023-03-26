@@ -23,8 +23,7 @@ const AboutMeSection = ({ isMobile }: AboutMeContract) => {
                         <p>
                             Atualmente estou cursando análise e desenvolvimento
                             de sistemas (ADS) e focando no desenvolvimento
-                            FullStack, visto que me interesso por todas as
-                            etapas de desenvolvimento de um software.
+                            FullStack.
                         </p>
                     </div>
                     {!isMobile && (
