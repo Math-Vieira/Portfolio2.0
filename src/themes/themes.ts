@@ -1,3 +1,5 @@
+import { Theme } from "react-github-calendar";
+
 export interface ThemeType {
     themeId: number;
     primaryColor: string;
@@ -9,6 +11,7 @@ export interface ThemeType {
     textColor: string;
     boxShadowItem: string;
     selectItemArrow: string;
+    gitHubTheme: Theme
 }
 
 export const darkTheme: ThemeType = {
@@ -22,4 +25,11 @@ export const darkTheme: ThemeType = {
     textColor: "#FFFFFF",
     boxShadowItem: "0px 4px 4px rgba(0, 173, 111, 0.58)",
     selectItemArrow: "#FFF",
+    gitHubTheme: {
+        level0:"#505050",
+        level1:'#007E51',
+        level2: '#009B63',
+        level3:'#00B876',
+        level4:'#00D98B'
+    }
 };

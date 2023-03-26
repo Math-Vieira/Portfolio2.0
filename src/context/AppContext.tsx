@@ -26,7 +26,7 @@ export const AppContextProvider = ({ children }: PropsType) => {
 	const { data, loading, error, request } = useAxios();
 
 	return (
-		<AppContext.Provider value={{ ...darkTheme, data, loading, error }}>
+		<AppContext.Provider value={{ ...theme, data, loading, error}}>
 			<ThemeProvider theme={theme}>{children}</ThemeProvider>
 		</AppContext.Provider>
 	);
