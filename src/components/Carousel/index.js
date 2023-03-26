@@ -2,6 +2,7 @@ import { useState, useEffect, useRef } from "react";
 import { useSwipeable } from "react-swipeable";
 import PropTypes from "prop-types";
 import "./styles/style.css";
+import useMediaQuery from "../../hooks/useMediaQuery";
 
 export function Carousel(props) {
     const [slideTotal, setSlideTotal] = useState(0);
@@ -9,6 +10,7 @@ export function Carousel(props) {
     const [slides, setSlides] = useState([]);
     const [height, setHeight] = useState("0px");
     const [autoPlay, setAutoPlay] = useState(true);
+    const isMobile = useMediaQuery("(max-width: 600px)");
     const nextRef = useRef();
     const handlers = useSwipeable({
         onSwipedLeft: () => slideRight(),
@@ -203,7 +205,9 @@ export function Carousel(props) {
                         {slides.map((slider, index) => (
                             <div className={slider.class} key={index}>
                                 <div
-                                    className={sliderClass("left")}
+                                    className={`${sliderClass("left")} ${
+                                        isMobile ? "slider-disabled" : ""
+                                    } `}
                                     onClick={slideLeft}
                                 >
                                     <div>
@@ -211,7 +215,9 @@ export function Carousel(props) {
                                     </div>
                                 </div>
                                 <div
-                                    className={sliderClass("right")}
+                                    className={`${sliderClass("right")} ${
+                                        isMobile ? "slider-disabled" : ""
+                                    } `}
                                     onClick={slideRight}
                                     ref={nextRef}
                                 >

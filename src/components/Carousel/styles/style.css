@@ -98,10 +98,6 @@
   color: #fff;
   transform: translateY(-50%);
   padding: 10px 10px;
-  border-top: 2px solid #fdc84b;
-  border-right: 2px solid #fdc84b;
-  border-bottom: 2px solid #fdc84b;
-  border-left: 2px solid #fdc84b;
 }
 .react-3d-carousel .slider-container .slider-right {
   display: none;
@@ -121,10 +117,6 @@
   color: #fff;
   transform: translateY(-50%);
   padding: 10px 10px;
-  border-top: 2px solid #fdc84b;
-  border-right: 2px solid #fdc84b;
-  border-bottom: 2px solid #fdc84b;
-  border-left: 2px solid #fdc84b;
 }
 .react-3d-carousel .slider-container .slider-left-noborders {
   position: absolute;

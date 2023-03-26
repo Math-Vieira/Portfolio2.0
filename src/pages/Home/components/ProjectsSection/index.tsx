@@ -25,7 +25,6 @@ const ProjectsSection = () => {
             <S.CarouselContainer>
                 <Carousel
                     interval={4000}
-                    arrows={false}
                     slides={projectCards}
                 />
             </S.CarouselContainer>
