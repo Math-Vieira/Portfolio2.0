@@ -124,4 +124,5 @@ export const ProjectImage = styled.img`
 
 export const Paragraph = styled.p`
     font-size: 13px;
+    user-select: none;
 `
