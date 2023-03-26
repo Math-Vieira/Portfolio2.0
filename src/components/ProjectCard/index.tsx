@@ -1,4 +1,5 @@
 import { useState } from "react";
+import ProjectDescription from "./components/ProjectDescription";
 import * as S from "./style";
 
 interface ProjectInterface {
@@ -7,6 +8,8 @@ interface ProjectInterface {
     projectUrl?: string;
     projectType: string;
     status: string;
+    projectImage: string;
+    projectDescription: string;
 }
 
 const ProjectCard = (props: ProjectInterface) => {
@@ -22,14 +25,16 @@ const ProjectCard = (props: ProjectInterface) => {
             onMouseOut={turnInfoVisibleFalse}
             onMouseOver={turnInfoVisibleTrue}
         >
-            <S.ProjectType>{props.projectType}</S.ProjectType>
-            <S.ProjectStatus>{props.status}</S.ProjectStatus>
             {!infoVisible ? (
-                <S.ProjectName className="animeLeft">
-                    {props.projectName}
-                </S.ProjectName>
+                <ProjectDescription
+                    projectDescription={props.projectDescription}
+                    projectImage={props.projectImage}
+                    projectName={props.projectName}
+                />
             ) : (
                 <>
+                    <S.ProjectType className="animeLeft">{props.projectType}</S.ProjectType>
+                    <S.ProjectStatus className="animeLeft">{props.status}</S.ProjectStatus>
                     <S.ProjectNameAfterHover className="animeLeft">
                         {props.projectName}
                     </S.ProjectNameAfterHover>

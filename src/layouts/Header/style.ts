@@ -7,7 +7,7 @@ export const Header = styled.header`
     width: 100%;
     padding: 0.5rem;
     top: 0;
-    z-index: 1;
+    z-index: 2;
 `;
 
 export const HeaderContentContainer = styled.div`

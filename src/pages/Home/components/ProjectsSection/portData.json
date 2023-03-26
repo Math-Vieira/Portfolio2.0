@@ -5,35 +5,45 @@
             "projectName": "Portfólio 2.0",
             "projectRepo": "https://github.com/Math-Vieira/Portfolio2.0",
             "projectUrl": "https://portfolio2-0-lime.vercel.app/",
-            "status": "Em andamento"
+            "status": "Em andamento",
+            "projectImage": "https://cdn.discordapp.com/attachments/957316110653464596/1088876982177108070/port.png",
+            "projectDescription": "Projeto criado para apresentar meus trabalhos e habilidades aos visitantes interessados em conhecer mais sobre mim."
         },
         {
             "projectType": "Front-end",
             "projectName": "Deezer app",
             "projectRepo": "https://github.com/Math-Vieira/deezer-app",
             "projectUrl": "https://deezer-app-mv.vercel.app/",
-            "status": "Concluído"
+            "status": "Concluído",
+            "projectImage": "https://cdn.discordapp.com/attachments/957316110653464596/1089385418199416913/image.png",
+            "projectDescription": "Este projeto é uma aplicação web desenvolvida com React que permite pesquisar músicas e visualizar as mais populares utilizando a API do Deezer."
         },
         {
             "projectType": "Back-end",
             "projectName": "Deezer api consumer",
             "projectRepo": "https://github.com/Math-Vieira/deezer-api-consumer",
             "projectUrl": "",
-            "status": "Concluído"
+            "status": "Concluído",
+            "projectImage": "https://cdn.discordapp.com/attachments/957316110653464596/1089386491467288656/image.png",
+            "projectDescription": "Este projeto é uma API que utiliza a API do Deezer para oferecer funcionalidades de busca e chart (músicas mais atuais) aos usuários. "
         }, 
         {
             "projectType": "Back-end",
             "projectName": "Clean arch API",
             "projectRepo": "https://github.com/Math-Vieira/api-clean-arch",
             "projectUrl": "",
-            "status": "Em andamento"
+            "status": "Em andamento",
+            "projectImage": "https://cdn.discordapp.com/attachments/957316110653464596/1089386902878171136/0iU9Ks05_GTtGh6zV.png",
+            "projectDescription": "API construída utilizando conceitos de arquitetura limpa, SOLID e design patterns. NodeJS e TypeScript estão sendo utilizados na sua construção."
         },
         {
             "projectType": "Front-end",
             "projectName": "Countries",
             "projectRepo": "https://github.com/Math-Vieira/countries",
             "projectUrl": "https://countries-math-vieira.vercel.app/",
-            "status": "Concluído"
+            "status": "Concluído",
+            "projectImage": "https://camo.githubusercontent.com/9673641b7e5ed4990896047df0cbd898659a17bd2791ab34da1176b6981dd509/68747470733a2f2f63646e2e646973636f72646170702e636f6d2f6174746163686d656e74732f3938323438353931363532343335353633342f313031373132383831313633383330343931302f756e6b6e6f776e2e706e67",
+            "projectDescription": "Aplicação desenvolvida em React que lista todos os países do mundo com várias informações a respeito de cada um. É um desafio do site Frontend Mentor."
         }
     ]
 }

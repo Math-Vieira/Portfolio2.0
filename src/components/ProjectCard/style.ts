@@ -2,8 +2,8 @@ import styled from "styled-components";
 
 export const ProjectContainer = styled.div`
     position: relative;
-    width: 25rem;
-    height: 25rem;
+    width: 26rem;
+    height: 26rem;
     background-color: ${({ theme }) => theme.primaryColor};
     position: relative;
     cursor: grab;
@@ -25,7 +25,7 @@ export const ProjectContainer = styled.div`
     &:nth-child(1):after {
         background: linear-gradient(235deg, #00ad6f, #00ad6f, #00ad6f);
     }
-
+    padding: 3rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -52,9 +52,9 @@ export const ProjectStatus = styled.div`
 
 export const ProjectName = styled.h3`
     color: ${({ theme }) => theme.textColor};
-    font-size: 2rem;
+    font-size: 1.5rem;
     letter-spacing: 2px;
-    text-align: center;
+    text-align: start;
     @media (max-width: 500px) {
         font-size: 1.5rem;
     }
@@ -68,18 +68,60 @@ export const InfoContainer = styled.ul`
 
     & li a {
         color: ${({ theme }) => theme.textColor};
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         user-select: none;
+        position: relative;
+    }
+
+    & li {
+        margin-top: 0.1rem;
     }
 
     & li a:hover {
-        color: ${({ theme }) => theme.mainColor};
         user-select: none;
+        margin-bottom: 0.3rem;
+    }
+
+    & li a::after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        background-color: red;
+        transform: scaleX(0);
+        height: 1px;
+        bottom: -5px;
+        left: 0;
+        background: linear-gradient(
+            270deg,
+            ${({ theme }) => theme.mainColor} 0%,
+            #17161d 100%
+        );
+        transform-origin: bottom right;
+        transition: transform 0.5s cubic-bezier(0.86, 0, 0.07, 1);
+    }
+    & li a:hover:after {
+        transform: scaleX(1);
+        transform-origin: bottom left;
     }
 `;
 
 export const ProjectNameAfterHover = styled.div`
     color: ${({ theme }) => theme.mainColor};
-    font-size: 2rem;
+    font-size: 1.7rem;
+    text-align: center;
     letter-spacing: 2px;
+    user-select: none;
 `;
+
+export const ProjectDescription = styled.div`
+    /* background-color: red; */
+`
+
+export const ProjectImage = styled.img`
+    box-shadow: 0 0 5px 2px ${({ theme }) => theme.tertiaryColor};
+    margin-bottom: 1rem;
+`
+
+export const Paragraph = styled.p`
+    font-size: 13px;
+`

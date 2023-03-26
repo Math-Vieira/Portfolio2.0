@@ -4,6 +4,7 @@ import { SwiperSlide, Swiper } from "swiper/react";
 import { Navigation } from "swiper";
 import CourseCard from "../../../../components/CourseCard";
 import coursesJson from "./courses.json";
+import useMediaQuery from "../../../../hooks/useMediaQuery";
 
 const coursesSlideArray = coursesJson.courses.map(e => (
     <SwiperSlide className="d-flex j-center margin-5px-top-bottom">
@@ -19,6 +20,7 @@ const coursesSlideArray = coursesJson.courses.map(e => (
 ));
 
 const CoursesSection = () => {
+    const isMobile = useMediaQuery("(max-width: 1000px)");
     return (
         <S.Section id="courses">
             <div className="centralizer pb-5">
@@ -27,7 +29,7 @@ const CoursesSection = () => {
                     navigation={true}
                     modules={[Navigation]}
                     className="mySwiper mySmokeSwiper"
-                    slidesPerView={3}
+                    slidesPerView={isMobile ? 1 : 3}
                 >
                     {coursesSlideArray}
                 </Swiper>

@@ -11,6 +11,8 @@ const projectCards = portData.projects.map(e => (
         projectRepo={e.projectRepo}
         projectUrl={e.projectUrl}
         status={e.status}
+        projectImage={e.projectImage}
+        projectDescription={e.projectDescription}
     />
 ));
 

@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
-export const CardContainer = styled.div`
+export const CardContainer = styled.div<{isMobile: boolean}>`
     background-color: ${({ theme }) => theme.secondaryColor};
-    width: 70%;
+    width: ${({isMobile}) => isMobile ? '226px' : '70%'};
     padding: 0.5rem;
     box-shadow: 0px 0px 6px ${({ theme }) => theme.mainColor};
     border: solid 1px ${({ theme }) => theme.secondaryColor};
