@@ -93,7 +93,7 @@
 .react-3d-carousel .slider-container .slider-left div {
   position: absolute;
   top: 50%;
-  left: 0%;
+  left: -50px;
   margin-top: -20px;
   color: #fff;
   transform: translateY(-50%);
@@ -112,7 +112,7 @@
 .react-3d-carousel .slider-container .slider-right div {
   position: absolute;
   top: 50%;
-  left: 0%;
+  left: 50px;
   margin-top: -20px;
   color: #fff;
   transform: translateY(-50%);
