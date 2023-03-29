@@ -65,12 +65,15 @@ export const InfoContainer = styled.ul`
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 
     & li a {
         color: ${({ theme }) => theme.textColor};
         font-size: 1.3rem;
         user-select: none;
         position: relative;
+        display: block;
+        margin-top: 10px;
     }
 
     & li {
@@ -102,6 +105,12 @@ export const InfoContainer = styled.ul`
     & li a:hover:after {
         transform: scaleX(1);
         transform-origin: bottom left;
+    }
+
+    @media (max-width: 500px) {
+        & li a {
+        font-size: 1rem;
+    }
     }
 `;
 

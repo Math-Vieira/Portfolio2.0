@@ -50,6 +50,10 @@ export const Name = styled.h1`
     color: ${({ theme }) => theme.textColor};
     @media (max-width: 900px) {
         font-size: 3rem;
+        text-align: center;
+    }
+    @media (max-width: 500px) {
+        font-size: 2.5rem;
     }
 `;
 
@@ -65,6 +69,10 @@ export const Occupation = styled.p`
         margin-left: 5px;
         opacity: 1;
         animation: ${flashing} 0.7s infinite;
+    }
+    @media (max-width: 500px) {
+        font-size: 2rem;
+        text-align: center;
     }
 `;
 
