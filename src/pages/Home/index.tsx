@@ -3,6 +3,7 @@ import AboutMeSection from "./components/AboutMeSection";
 import ProjectsSection from "./components/ProjectsSection";
 import MainComponent from "./components/MainComponent";
 import CoursesSection from "./components/CoursesSection";
+import SkillsSection from "./components/SkillsSection";
 
 const Home = () => {
     const isMobile = useMediaQuery("(max-width: 900px)");
@@ -13,6 +14,7 @@ const Home = () => {
             <AboutMeSection isMobile={isMobile} />
             <ProjectsSection />
             <CoursesSection />
+            <SkillsSection />
         </>
     );
 };
