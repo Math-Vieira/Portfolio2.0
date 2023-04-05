@@ -72,7 +72,6 @@ export const InfoContainer = styled.ul`
         font-size: 1.3rem;
         user-select: none;
         position: relative;
-        display: block;
         margin-top: 10px;
     }
 
