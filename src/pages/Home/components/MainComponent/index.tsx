@@ -29,7 +29,7 @@ const MainComponent = ({ isMobile }: MainComponentContract) => {
 
     return (
         <S.Main id="start">
-            <div className="centralizer">
+            <div className="centralizer animeLeft">
                 <S.MainContentContainer>
                     <div className="nameLogoContainer">
                         <S.MyInfoContainer>
