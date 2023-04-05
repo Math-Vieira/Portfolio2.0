@@ -3,6 +3,7 @@ import H2 from "../../../../components/H2";
 import { Carousel } from "../../../../components/Carousel";
 import ProjectCard from "../../../../components/ProjectCard";
 import portData from "./portData.json";
+import Calendar from "../../../../components/Calendar";
 
 const projectCards = portData.projects.map(e => (
     <ProjectCard
@@ -25,6 +26,7 @@ const ProjectsSection = () => {
                     <Carousel interval={4000} slides={projectCards} />
                 </S.CarouselContainer>
             </div>
+            <Calendar />
         </S.Section>
     );
 };
