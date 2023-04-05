@@ -132,3 +132,45 @@ export const Section = styled.section<{ padding?: number; secondary?: boolean }>
         box-shadow: none;
     }
 `;
+
+export const SkillsContainer = styled.div<{seeMore: boolean}>`
+    max-height: ${({seeMore}) => seeMore? "400rem": "30rem"};
+    padding-bottom: ${({seeMore}) => seeMore? "3rem": ""};
+    transition: max-height padding-bottom .5s linear;
+    overflow: hidden;
+    position: relative;
+    &::after {
+        content: "";
+        display: block;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        position: absolute;
+        height: 0;
+        box-shadow: 0 1rem 5rem 5rem ${({theme}) => theme.secondaryColor};
+    }
+`;
+
+export const SeeMoreContainer = styled.div`
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+`
+
+export const GenericButton = styled.button`
+    z-index: 1;
+    color: ${({theme}) => theme.textColor};
+    background-color: transparent;
+    padding: 0.5rem 1rem;
+    outline: none;
+    border: solid 1px ${({theme}) => theme.mainColor};
+    cursor: pointer;
+    &:hover {
+        box-shadow: 0px 0px 6px ${({ theme }) => theme.mainColor};
+    }
+`
