@@ -18,6 +18,18 @@ const GlobalStyle = createGlobalStyle`
     padding-bottom: 5rem;
 }
 
+.pt-5 {
+    padding-top: 5rem;
+}
+
+.pb-3 {
+    padding-bottom: 3rem;
+}
+
+.pt-3 {
+    padding-top: 3rem;
+}
+
 .mySmokeSwiper::before {
     content: '';
     height: 20px;
@@ -58,6 +70,17 @@ const GlobalStyle = createGlobalStyle`
 .margin-5px-top-bottom {
     margin: 5px 0;
 }
+
+::-webkit-scrollbar {
+  width: 5px;
+  background-color: ${props => props.theme.tertiaryColor};
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: ${props => props.theme.mainColor};
+  border-radius: 10px;
+}
+
 `;
 
 export default GlobalStyle;
