@@ -3,10 +3,16 @@ import * as S from "../../style";
 import skillJson from "./skills.json";
 import SkillRow from "../../../../components/SkillRow";
 import { useToggle } from "../../../../hooks/useToggle";
+import { GenericButton } from "../../../../components/generics";
 const { skills } = skillJson;
 
 const skillList = skills.map(e => (
-    <SkillRow key={e.name} description={e.description} name={e.name} svg={e.svg} />
+    <SkillRow
+        key={e.name}
+        description={e.description}
+        name={e.name}
+        svg={e.svg}
+    />
 ));
 
 const SkillsSection = () => {
@@ -17,9 +23,9 @@ const SkillsSection = () => {
             <S.SkillsContainer seeMore={seeMore}>
                 <div className="centralizer">{skillList}</div>
                 <S.SeeMoreContainer>
-                    <S.GenericButton onClick={toggle}>
+                    <GenericButton onClick={toggle}>
                         {!seeMore ? "Ver mais" : "Ver menos"}
-                    </S.GenericButton>
+                    </GenericButton>
                 </S.SeeMoreContainer>
             </S.SkillsContainer>
         </S.Section>
