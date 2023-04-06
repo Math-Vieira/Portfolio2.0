@@ -6,7 +6,7 @@ import { useToggle } from "../../../../hooks/useToggle";
 const { skills } = skillJson;
 
 const skillList = skills.map(e => (
-    <SkillRow description={e.description} name={e.name} svg={e.svg} />
+    <SkillRow key={e.name} description={e.description} name={e.name} svg={e.svg} />
 ));
 
 const SkillsSection = () => {

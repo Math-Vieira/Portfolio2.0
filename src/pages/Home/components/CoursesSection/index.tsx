@@ -7,7 +7,7 @@ import coursesJson from "./courses.json";
 import useMediaQuery from "../../../../hooks/useMediaQuery";
 
 const coursesSlideArray = coursesJson.courses.map(e => (
-    <SwiperSlide className="d-flex j-center margin-5px-top-bottom">
+    <SwiperSlide key={e.courseName} className="d-flex j-center margin-5px-top-bottom">
         <CourseCard
             courseName={e.courseName}
             institution={e.institution}
