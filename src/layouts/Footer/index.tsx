@@ -1,5 +1,6 @@
 import Form from "./components/Form";
 import Header from "./components/Header";
+import Media from "./components/Media";
 import * as S from "./style";
 
 const Footer = () => {
@@ -9,7 +10,9 @@ const Footer = () => {
             <div className="centralizer">
                 <S.ContactContainer>
                     <Form />
+                    <Media />
                 </S.ContactContainer>
+                <S.BottomMessage>© 2023 / Matheus Vieira / Todos os direitos reservados </S.BottomMessage>
             </div>
         </S.Footer>
     );

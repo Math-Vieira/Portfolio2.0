@@ -44,8 +44,6 @@ const Form = () => {
                 required
                 value={message}
                 placeholder="Sua mensagem..."
-                name=""
-                id=""
                 cols={30}
                 rows={10}
                 onChange={e => setMessage(e.target.value)}
