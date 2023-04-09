@@ -55,6 +55,22 @@
             "instructor": "Matheus Battisti",
             "certificate": "https://www.udemy.com/certificate/UC-e049f9d2-32ef-42f6-a0d9-d300df7425a0/",
             "conclusion": "2022"
+        },
+        {
+            "courseName": "Git e GitHub do básico",
+            "institution": "Udemy",
+            "duration": "8 horas",
+            "instructor": "Matheus Battisti",
+            "certificate": "https://www.udemy.com/certificate/UC-65b88cb2-e653-400f-9a51-c7abeb3162d0/",
+            "conclusion": "2021"
+        },
+        {
+            "courseName": "Introdução ao Git e ao GitHub",
+            "institution": "DIO",
+            "duration": "5 horas",
+            "instructor": "Otávio Reis",
+            "certificate": "https://www.dio.me/certificate/5B969BE8/share",
+            "conclusion": "2021"
         }
         
     ]
