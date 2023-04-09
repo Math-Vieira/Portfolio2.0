@@ -15,7 +15,7 @@ const MainComponent = ({ isMobile }: MainComponentContract) => {
     const [isInitial, setIsInitial] = useState<boolean>(true);
     const ref = useRef<HTMLParagraphElement>(null);
     const occupation: string = "Desenvolvedor Web";
-    
+
     useEffect(() => {
         if (
             !isInitial &&
@@ -29,7 +29,7 @@ const MainComponent = ({ isMobile }: MainComponentContract) => {
 
     return (
         <S.Main id="start">
-            <div className="centralizer animeLeft">
+            <div className={`${!isInitial ? "animeLeft" : ""} centralizer`}>
                 <S.MainContentContainer>
                     <div className="nameLogoContainer">
                         <S.MyInfoContainer>
