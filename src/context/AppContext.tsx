@@ -1,33 +1,23 @@
 import React, { createContext, useState } from "react";
 import { darkTheme, ThemeType } from "../themes/themes";
 import { ThemeProvider } from "styled-components";
-import { RequestStates } from "../hooks/useAxios";
-import useAxios from "../hooks/useAxios";
 //TODO Add another theme
-//TODO Implement the fetch end point
 
 type PropsType = {
-	children: React.ReactNode;
+    children: React.ReactNode;
 };
 
-type Context = ThemeType & RequestStates;
+type Context = ThemeType;
 
-const initialContextState: Context = {
-	...darkTheme,
-	data: null,
-	loading: null,
-	error: null,
-};
-
+const initialContextState: Context = darkTheme;
 export const AppContext = createContext<Context>(initialContextState);
 
 export const AppContextProvider = ({ children }: PropsType) => {
-	const [theme, setTheme] = useState<ThemeType>(darkTheme);
-	const { data, loading, error, request } = useAxios();
+    const [theme, setTheme] = useState<ThemeType>(darkTheme);
 
-	return (
-		<AppContext.Provider value={{ ...theme, data, loading, error}}>
-			<ThemeProvider theme={theme}>{children}</ThemeProvider>
-		</AppContext.Provider>
-	);
+    return (
+        <AppContext.Provider value={{ ...theme }}>
+            <ThemeProvider theme={theme}>{children}</ThemeProvider>
+        </AppContext.Provider>
+    );
 };
