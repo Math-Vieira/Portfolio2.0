@@ -15,6 +15,9 @@ export const GenericButton = styled.button`
         cursor: wait;
         box-shadow: 0px 0px 2px ${({ theme }) => theme.mainColor};
     }
+    &:focus {
+        box-shadow: 0px 0px 6px ${({ theme }) => theme.mainColor};
+    }
 `
 
 export const GenericInput = styled.input`
