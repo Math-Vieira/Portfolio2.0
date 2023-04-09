@@ -1,22 +1,35 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import {
     GenericButton,
     GenericInput,
     GenericTextArea,
 } from "../../../../components/generics";
 import * as S from "../../style";
+import useAxios from "../../../../hooks/useAxios";
 
 const Form = () => {
     const [name, setName] = useState<string>("");
     const [email, setEmail] = useState<string>("");
     const [subject, setSubject] = useState<string>("");
     const [message, setMessage] = useState<string>("");
+    const { data, error, loading, request } = useAxios();
 
-    const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
-        const data = { name, email, subject, message };
-        console.log(data)
+        const body = { name, email, subject, message };
+        await request({ url: "/newMessage", method: "POST", body });
     };
+
+    useEffect(() => {
+        if (data) {
+            setName("");
+            setEmail("");
+            setSubject("");
+            setMessage("");
+        }
+        if (error) {
+        }
+    }, [error, data]);
     return (
         <S.Form onSubmit={handleSubmit}>
             <GenericInput
@@ -48,7 +61,9 @@ const Form = () => {
                 rows={10}
                 onChange={e => setMessage(e.target.value)}
             />
-            <GenericButton type="submit">Enviar</GenericButton>
+            <GenericButton disabled={loading ? true : false} type="submit">
+                Enviar
+            </GenericButton>
         </S.Form>
     );
 };

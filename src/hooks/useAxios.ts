@@ -14,7 +14,7 @@ type Request = {
 	headers?: RawAxiosRequestHeaders;
 };
 
-const API = "............";
+const API = "https://api-portfolio-8l3n.onrender.com/";
 axios.defaults.baseURL = API;
 
 const useAxios = () => {
@@ -30,7 +30,6 @@ const useAxios = () => {
 			"Content-Type": "application/json",
 		},
 	}: Request) => {
-		let successRequest: boolean;
 		try {
 			setLoading(true);
 			setError(null)
@@ -41,13 +40,10 @@ const useAxios = () => {
 				data: body,
 			});
 			setData(response.data);
-			successRequest = true;
 		} catch (err: any) {
-			successRequest = false;
 			setError(err);
 		} finally {
 			setLoading(false);
-			return successRequest!;
 		}
 	};
 	return { data, error, loading, request, setData, setError, setLoading };

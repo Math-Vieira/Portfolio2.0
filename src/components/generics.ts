@@ -11,6 +11,10 @@ export const GenericButton = styled.button`
     &:hover {
         box-shadow: 0px 0px 6px ${({ theme }) => theme.mainColor};
     }
+    &:disabled {
+        cursor: wait;
+        box-shadow: 0px 0px 2px ${({ theme }) => theme.mainColor};
+    }
 `
 
 export const GenericInput = styled.input`
