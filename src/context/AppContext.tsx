@@ -14,7 +14,7 @@ export const AppContext = createContext<Context>(initialContextState);
 
 export const AppContextProvider = ({ children }: PropsType) => {
     const [theme, setTheme] = useState<ThemeType>(darkTheme);
-
+    fetch('https://api-portfolio-8l3n.onrender.com/');
     return (
         <AppContext.Provider value={{ ...theme }}>
             <ThemeProvider theme={theme}>{children}</ThemeProvider>
