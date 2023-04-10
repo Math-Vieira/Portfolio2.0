@@ -55,4 +55,4 @@
 </table>
 
 <h2>:dollar: Licença</h2>
-<b>Este projeto está sob a licença MIT</b>
+<b>All Rights Reserved</b>
