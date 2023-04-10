@@ -7,6 +7,9 @@ export const ProjectContainer = styled.div`
     background-color: ${({ theme }) => theme.primaryColor};
     position: relative;
     cursor: grab;
+    &:active {
+        cursor: grabbing;
+    }
     &:before,
     &:after {
         content: "";
