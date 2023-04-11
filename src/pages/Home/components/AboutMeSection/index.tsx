@@ -10,7 +10,7 @@ const AboutMeSection = ({ isMobile }: AboutMeContract) => {
     return (
         <S.Section id="aboutMe">
             <div className="centralizer">
-                <H2>SOBRE MIM</H2>
+                <H2>Sobre mim</H2>
                 <S.AboutMeContainer>
                     <div>
                         <p>

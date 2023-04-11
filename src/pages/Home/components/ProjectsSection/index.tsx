@@ -21,7 +21,7 @@ const ProjectsSection = () => {
     return (
         <S.Section secondary={true} id="projects">
             <div className="centralizer">
-                <H2>PROJETOS</H2>
+                <H2>Projetos</H2>
                 <S.CarouselContainer>
                     <Carousel interval={4000} slides={projectCards} />
                 </S.CarouselContainer>

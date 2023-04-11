@@ -38,11 +38,11 @@ const Header = () => {
                             </S.Link>
                         </li>
                         <li>
-                            <S.Link href="#courses">
+                            <S.Link href="#certificates">
                                 {isMobile && (
                                     <i className="fa-solid fa-graduation-cap"></i>
                                 )}
-                                {!isMobile && "Cursos"}
+                                {!isMobile && "Certificações"}
                             </S.Link>
                         </li>
                         <li>

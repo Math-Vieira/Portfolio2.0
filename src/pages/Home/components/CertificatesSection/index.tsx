@@ -19,12 +19,12 @@ const coursesSlideArray = coursesJson.courses.map(e => (
     </SwiperSlide>
 ));
 
-const CoursesSection = () => {
+const CertificatesSection = () => {
     const isMobile = useMediaQuery("(max-width: 1000px)");
     return (
-        <S.Section id="courses">
+        <S.Section id="certificates">
             <div className="centralizer pb-5">
-                <H2>Cursos</H2>
+                <H2>Certificações</H2>
                 <Swiper
                     navigation={true}
                     modules={[Navigation]}
@@ -38,4 +38,4 @@ const CoursesSection = () => {
     );
 };
 
-export default CoursesSection;
+export default CertificatesSection;
