@@ -1,6 +1,14 @@
 {
     "courses": [
         {
+            "courseName": "Node.js do Zero a Maestria",
+            "institution": "Udemy",
+            "duration": "38 horas",
+            "instructor": "Matheus Battisti",
+            "certificate": "https://www.udemy.com/certificate/UC-ad929d40-b221-4d22-a531-7bf32d8359b5/",
+            "conclusion": "2023"
+        },
+        {
             "courseName": "JavaScript Completo ES6",
             "institution": "Origamid",
             "duration": "74 horas",
@@ -15,14 +23,6 @@
             "instructor": "Maximilian Schwarzmüller",
             "certificate": "https://www.udemy.com/certificate/UC-550ce2fa-9324-4a29-bc46-c36cf7264301/",
             "conclusion": "2022"
-        },
-        {
-            "courseName": "Node.js do Zero a Maestria",
-            "institution": "Udemy",
-            "duration": "38 horas",
-            "instructor": "Matheus Battisti",
-            "certificate": "https://www.udemy.com/certificate/UC-ad929d40-b221-4d22-a531-7bf32d8359b5/",
-            "conclusion": "2023"
         },
         {
             "courseName": "Redux com react - Origamid",
@@ -72,7 +72,5 @@
             "certificate": "https://www.dio.me/certificate/5B969BE8/share",
             "conclusion": "2021"
         }
-        
     ]
 }
-
