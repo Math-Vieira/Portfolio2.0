@@ -1,18 +1,10 @@
 import { useState } from "react";
 import ProjectDescription from "./components/ProjectDescription";
 import * as S from "./style";
+import { ProjectModel } from "./model";
 
-interface ProjectInterface {
-    projectName: string;
-    projectRepo: string;
-    projectUrl?: string;
-    projectType: string;
-    status: string;
-    projectImage: string;
-    projectDescription: string;
-}
 
-const ProjectCard = (props: ProjectInterface) => {
+const ProjectCard = (props: ProjectModel) => {
     const [infoVisible, setInfoVisible] = useState<boolean>(false);
     const turnInfoVisibleFalse = () => {
         setInfoVisible(false);

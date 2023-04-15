@@ -1,14 +1,7 @@
 import * as S from "./style";
 import CourseInfo from "./components/CourseInfo";
 import useMediaQuery from "../../hooks/useMediaQuery";
-interface CourseCardModel {
-    courseName: string;
-    institution: string;
-    duration: string;
-    instructor: string;
-    conclusion: string;
-    certificate: string;
-}
+import { CourseCardModel } from "./model";
 
 const CourseCard = (props: CourseCardModel) => {
     const isMobile = useMediaQuery("(max-width: 1000px)");
