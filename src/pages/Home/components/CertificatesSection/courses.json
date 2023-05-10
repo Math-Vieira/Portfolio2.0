@@ -1,6 +1,14 @@
 {
     "courses": [
         {
+            "courseName": "NestJS do Zero com typeORM",
+            "institution": "Udemy",
+            "duration": "16 horas",
+            "instructor": " Jorge Aluizio",
+            "certificate": "https://www.udemy.com/certificate/UC-6dd9c294-a39e-4f70-91b5-be36e47943cf/",
+            "conclusion": "2023"
+        },
+        {
             "courseName": "NodeJS - The Complete guide",
             "institution": "Udemy",
             "duration": "40 horas",
