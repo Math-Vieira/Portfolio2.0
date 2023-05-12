@@ -1,10 +1,18 @@
 {
     "courses": [
         {
+            "courseName": "MongoDB do básico",
+            "institution": "Udemy",
+            "duration": "19 horas",
+            "instructor": "Matheus Battisti",
+            "certificate": "https://www.udemy.com/certificate/UC-b89a0b21-c626-470b-8448-aa2e3de7551c/",
+            "conclusion": "2023"
+        },
+        {
             "courseName": "NestJS do Zero com typeORM",
             "institution": "Udemy",
             "duration": "16 horas",
-            "instructor": " Jorge Aluizio",
+            "instructor": "Jorge Aluizio",
             "certificate": "https://www.udemy.com/certificate/UC-6dd9c294-a39e-4f70-91b5-be36e47943cf/",
             "conclusion": "2023"
         },
@@ -14,6 +22,14 @@
             "duration": "40 horas",
             "instructor": "Maximilian Schwarzmüller",
             "certificate": "https://www.udemy.com/certificate/UC-a59442e6-733d-4ba8-b0e4-a42914b8e060/",
+            "conclusion": "2023"
+        },
+        {
+            "courseName": "Docker para Desenvolvedores",
+            "institution": "Udemy",
+            "duration": "12 horas",
+            "instructor": "Matheus Battisti",
+            "certificate": "https://www.udemy.com/certificate/UC-ed57e3dd-005b-49df-b04b-11831ee8a0e5/",
             "conclusion": "2023"
         },
         {
