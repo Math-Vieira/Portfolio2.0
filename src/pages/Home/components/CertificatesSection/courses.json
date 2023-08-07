@@ -1,6 +1,14 @@
 {
     "courses": [
         {
+            "courseName": "Next.js & React",
+            "institution": "Udemy",
+            "duration": "25 horas",
+            "instructor": "Maximilian Schwarzmüller",
+            "certificate": "https://www.udemy.com/certificate/UC-13478654-e7e9-43af-8b1b-1e46750a1ecd/",
+            "conclusion": "2023"
+        },
+        {
             "courseName": "MongoDB do básico",
             "institution": "Udemy",
             "duration": "19 horas",
