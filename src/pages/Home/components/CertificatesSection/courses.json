@@ -1,6 +1,22 @@
 {
     "courses": [
         {
+            "courseName": "Testing React with Jest",
+            "institution": "Udemy",
+            "duration": "7 horas",
+            "instructor": "Bonnie Schulkin",
+            "certificate": "https://www.udemy.com/certificate/UC-73f85cac-dee9-4d37-a6cf-9eb313a73151/",
+            "conclusion": "2023"
+        },
+        {
+            "courseName": "Domine a Clean arch",
+            "institution": "Udemy",
+            "duration": "7 horas",
+            "instructor": "Leonardo Moura",
+            "certificate": "https://www.udemy.com/certificate/UC-ec51b5a1-95d8-41d9-a1d6-b2ed927ae461/",
+            "conclusion": "2023"
+        },
+        {
             "courseName": "Next.js & React - Complete guide",
             "institution": "Udemy",
             "duration": "25 horas",
