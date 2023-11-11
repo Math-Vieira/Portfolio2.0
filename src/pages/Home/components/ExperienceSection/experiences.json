@@ -1,0 +1,32 @@
+{
+    "experiences": [
+        {
+            "company": "Dotkon",
+            "description": "Desenvolvedor frontend responsável por desenvolver novas interfaces dentro de um sistema farmacêutico ainda em desenvolvimento. As principais tecnologias utilizadas são: TypeScript, React, Styled Components, Sass, React Query e antd.",
+            "start": "2023",
+            "end": "Atualmente",
+            "linkedin": "https://www.linkedin.com/company/dotkon/"
+        },
+        {
+            "company": "ClusterVet",
+            "description": "Desenvolvedor encarregado de desenvolver interfaces em um sistema veterinário utilizandando Javascript, Typescript, VueJS, Vuetify e NestJS.",
+            "start": "2023",
+            "end": "2023",
+            "linkedin": "https://www.linkedin.com/company/cluster-vet/"
+        },
+        {
+            "company": "Suporte Gerencial",
+            "description": "Responsável por desenvolver novas funcionalidades em um sistema de gestão educacional, utilizando as tecnologias React.js, Node.js, MySQL, TypeScript e styled components. Adoto a metodologia ágil Scrum e realizo o desenvolvimento e a integração de API's.",
+            "start": "2022",
+            "end": "2023",
+            "linkedin": "https://www.linkedin.com/company/suporte-gerencial/"
+        },
+        {
+            "company": "Serpens",
+            "description": "Encarregado de desenvolver interfaces de fácil entendimento, responsivas e agradáveis aos usuários, utilizando ReactJS, TypeScript, Styled components, Next, Sass e integrações de API’s.",
+            "start": "2021",
+            "end": "2022",
+            "linkedin": "https://www.linkedin.com/company/agenciaserpens/"
+        }
+    ]
+}

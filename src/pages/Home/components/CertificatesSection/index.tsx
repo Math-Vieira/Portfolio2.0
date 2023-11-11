@@ -1,13 +1,16 @@
-import * as S from "../../style";
-import H2 from "../../../../components/H2";
-import { SwiperSlide, Swiper } from "swiper/react";
-import { Navigation } from "swiper";
-import CourseCard from "../../../../components/CourseCard";
-import coursesJson from "./courses.json";
-import useMediaQuery from "../../../../hooks/useMediaQuery";
+import * as S from '../../style';
+import H2 from '../../../../components/H2';
+import { SwiperSlide, Swiper } from 'swiper/react';
+import { Navigation } from 'swiper';
+import CourseCard from '../../../../components/CourseCard';
+import coursesJson from './courses.json';
+import useMediaQuery from '../../../../hooks/useMediaQuery';
 
 const coursesSlideArray = coursesJson.courses.map(e => (
-    <SwiperSlide key={e.courseName} className="d-flex j-center margin-5px-top-bottom">
+    <SwiperSlide
+        key={e.courseName}
+        className='d-flex j-center margin-5px-top-bottom'
+    >
         <CourseCard
             courseName={e.courseName}
             institution={e.institution}
@@ -20,15 +23,15 @@ const coursesSlideArray = coursesJson.courses.map(e => (
 ));
 
 const CertificatesSection = () => {
-    const isMobile = useMediaQuery("(max-width: 1000px)");
+    const isMobile = useMediaQuery('(max-width: 1000px)');
     return (
-        <S.Section id="certificates">
-            <div className="centralizer pb-5">
+        <S.Section secondary id='certificates'>
+            <div className='centralizer pb-5'>
                 <H2>Certificações</H2>
                 <Swiper
                     navigation={true}
                     modules={[Navigation]}
-                    className="mySwiper mySmokeSwiper"
+                    className='mySwiper mySmokeSwiper'
                     slidesPerView={isMobile ? 1 : 3}
                 >
                     {coursesSlideArray}

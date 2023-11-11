@@ -1,9 +1,9 @@
-import H2 from "../../../../components/H2";
-import * as S from "../../style";
-import skillJson from "./skills.json";
-import SkillRow from "../../../../components/SkillRow";
-import { useToggle } from "../../../../hooks/useToggle";
-import { GenericButton } from "../../../../components/generics";
+import H2 from '../../../../components/H2';
+import * as S from '../../style';
+import skillJson from './skills.json';
+import SkillRow from '../../../../components/SkillRow';
+import { useToggle } from '../../../../hooks/useToggle';
+import { GenericButton } from '../../../../components/generics';
 const { skills } = skillJson;
 
 const skillList = skills.map(e => (
@@ -18,13 +18,13 @@ const skillList = skills.map(e => (
 const SkillsSection = () => {
     const { state: seeMore, toggle } = useToggle(false);
     return (
-        <S.Section id="skills" secondary={true}>
+        <S.Section id='skills'>
             <H2>Habilidades</H2>
             <S.SkillsContainer seeMore={seeMore}>
-                <div className="centralizer">{skillList}</div>
+                <div className='centralizer'>{skillList}</div>
                 <S.SeeMoreContainer>
                     <GenericButton onClick={toggle}>
-                        {!seeMore ? "Ver mais" : "Ver menos"}
+                        {!seeMore ? 'Ver mais' : 'Ver menos'}
                     </GenericButton>
                 </S.SeeMoreContainer>
             </S.SkillsContainer>

@@ -1,9 +1,9 @@
-import * as S from "../../style";
-import H2 from "../../../../components/H2";
-import { Carousel } from "../../../../components/Carousel";
-import ProjectCard from "../../../../components/ProjectCard";
-import portData from "./portData.json";
-import Calendar from "../../../../components/Calendar";
+import * as S from '../../style';
+import H2 from '../../../../components/H2';
+import { Carousel } from '../../../../components/Carousel';
+import ProjectCard from '../../../../components/ProjectCard';
+import portData from './portData.json';
+import Calendar from '../../../../components/Calendar';
 
 const projectCards = portData.projects.map(e => (
     <ProjectCard
@@ -19,8 +19,8 @@ const projectCards = portData.projects.map(e => (
 
 const ProjectsSection = () => {
     return (
-        <S.Section secondary={true} id="projects">
-            <div className="centralizer">
+        <S.Section id='projects'>
+            <div className='centralizer'>
                 <H2>Projetos</H2>
                 <S.CarouselContainer>
                     <Carousel interval={4000} slides={projectCards} />

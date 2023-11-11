@@ -1,4 +1,4 @@
-import { createGlobalStyle } from "styled-components";
+import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyle = createGlobalStyle`
  .swiper-button-prev {
@@ -35,13 +35,13 @@ const GlobalStyle = createGlobalStyle`
     height: 20px;
     width: 20px;
     position: absolute;
-    background-color:${props => props.theme.primaryColor};
+    background-color:${props => props.theme.secondaryColor};
     top: 0;
     left: 0;
     height: 100px;
     height: 100%;
     z-index: 2;
-    box-shadow: 0px 0px 20px 20px ${props => props.theme.primaryColor};
+    box-shadow: 0px 0px 20px 20px ${props => props.theme.secondaryColor};
 }
 
 .mySmokeSwiper::after {
@@ -49,14 +49,14 @@ const GlobalStyle = createGlobalStyle`
     height: 20px;
     width: 20px;
     position: absolute;
-    background-color: ${props => props.theme.primaryColor};
+    background-color: ${props => props.theme.secondaryColor};
     top: 0;
     right: 0;
     scroll-margin-right: 0;
     height: 100px;
     height: 100%;
     z-index: 2;
-    box-shadow: 0px 0px 20px 20px ${props => props.theme.primaryColor};
+    box-shadow: 0px 0px 20px 20px ${props => props.theme.secondaryColor};
 }
 
 .d-flex {
