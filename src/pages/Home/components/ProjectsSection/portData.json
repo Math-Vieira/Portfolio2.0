@@ -6,7 +6,7 @@
             "projectRepo": "https://github.com/Math-Vieira/Portfolio2.0",
             "projectUrl": "https://portfolio2-0-lime.vercel.app/",
             "status": "Em andamento",
-            "projectImage": "https://cdn.discordapp.com/attachments/957316110653464596/1088876982177108070/port.png",
+            "projectImage": "https://cdn.discordapp.com/attachments/507679675007369231/1213673492692860928/image.png?ex=65f65485&is=65e3df85&hm=262aabe22a714e9e6eb3db7d1a3357242395748fd8df69ac8b1eca729aeb252a&",
             "projectDescription": "Projeto criado para apresentar meus trabalhos e habilidades aos visitantes interessados em conhecer mais sobre mim."
         },
         {
@@ -15,7 +15,7 @@
             "projectRepo": "https://github.com/Math-Vieira/deezer-app",
             "projectUrl": "https://deezer-app-mv.vercel.app/",
             "status": "Concluído",
-            "projectImage": "https://cdn.discordapp.com/attachments/957316110653464596/1089385418199416913/image.png",
+            "projectImage": "https://cdn.discordapp.com/attachments/507679675007369231/1213673576373420032/image.png?ex=65f65499&is=65e3df99&hm=9823c18cb655c96b05ff75a11381b1c0949429fe0db42847bd2e0828b24e0b90&",
             "projectDescription": "Este projeto é uma aplicação web desenvolvida com React que permite pesquisar músicas e visualizar as mais populares utilizando a API do Deezer."
         },
         {
@@ -24,7 +24,7 @@
             "projectRepo": "https://github.com/Math-Vieira/deezer-api-consumer",
             "projectUrl": "",
             "status": "Concluído",
-            "projectImage": "https://cdn.discordapp.com/attachments/957316110653464596/1089386491467288656/image.png",
+            "projectImage": "https://cdn.discordapp.com/attachments/507679675007369231/1213673730560106516/image-blog-getting-most-api-management-600x400-1.png?ex=65f654be&is=65e3dfbe&hm=103e0935e0f648eb11e55f70c954ee19cb1122810557fd178800140993c537ea&",
             "projectDescription": "Este projeto é uma API que utiliza a API do Deezer para oferecer funcionalidades de busca e chart (músicas mais atuais) aos usuários. "
         }, 
         {
@@ -33,7 +33,7 @@
             "projectRepo": "https://github.com/Math-Vieira/api-clean-arch",
             "projectUrl": "",
             "status": "Em andamento",
-            "projectImage": "https://cdn.discordapp.com/attachments/957316110653464596/1089386902878171136/0iU9Ks05_GTtGh6zV.png",
+            "projectImage": "https://cdn.discordapp.com/attachments/507679675007369231/1213673815138246676/Clean-Architecture-5.png?ex=65f654d2&is=65e3dfd2&hm=ac7e41456e28dd9bc5ff71ff8e3817ec061f95aa8de6e7c4082c2efef76f542d&",
             "projectDescription": "API construída utilizando conceitos de arquitetura limpa, SOLID e design patterns. NodeJS e TypeScript estão sendo utilizados na sua construção."
         },
         {
