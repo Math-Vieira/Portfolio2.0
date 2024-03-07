@@ -1,11 +1,20 @@
 {
     "projects": [
         {
+            "projectType": "FullStack",
+            "projectName": "User Register",
+            "projectRepo": "https://github.com/Math-Vieira/user-register",
+            "projectUrl": "",
+            "status": "Concluído",
+            "projectImage": "https://cdn.discordapp.com/attachments/1118878755960651878/1214587842630516816/image.png?ex=65f9a813&is=65e73313&hm=678a05130cbf213dbdbde0afb8e2eb5d1b463cd7938d0a525ff54925d37be584&",
+            "projectDescription": "Aplicação desenvolvida para demonstrar conceitos básicos como CRUD, autenticação e rate limit. Todas as informações estão no readme."
+        },
+        {
             "projectType": "Front-end",
             "projectName": "Portfólio 2.0",
             "projectRepo": "https://github.com/Math-Vieira/Portfolio2.0",
             "projectUrl": "https://portfolio2-0-lime.vercel.app/",
-            "status": "Em andamento",
+            "status": "Concluído",
             "projectImage": "https://cdn.discordapp.com/attachments/507679675007369231/1213673492692860928/image.png?ex=65f65485&is=65e3df85&hm=262aabe22a714e9e6eb3db7d1a3357242395748fd8df69ac8b1eca729aeb252a&",
             "projectDescription": "Projeto criado para apresentar meus trabalhos e habilidades aos visitantes interessados em conhecer mais sobre mim."
         },
