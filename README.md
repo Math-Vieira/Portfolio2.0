@@ -45,7 +45,7 @@
   <tr>
     <td align="center">
       <a href="https://github.com/Math-Vieira">
-        <img src="https://cdn.discordapp.com/attachments/908101448112431115/964905499613077504/me.png" width="100px;" alt="Foto do Matheus Vieira"/><br>
+        <img src="https://avatars.githubusercontent.com/u/92286969?s=400&u=08fbd3c9b232a5ea1a49b3d6877a7570395c0026&v=4" width="100px;" alt="Foto do Matheus Vieira"/><br>
         <sub>
           <b>Matheus Vieira</b>
         </sub>
