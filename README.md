@@ -6,7 +6,7 @@
   <img src="https://img.shields.io/badge/Styled Components-brightgreen"/>
 </div>
 
-<img src ="https://cdn.discordapp.com/attachments/507679675007369231/1213673492692860928/image.png?ex=65f65485&is=65e3df85&hm=262aabe22a714e9e6eb3db7d1a3357242395748fd8df69ac8b1eca729aeb252a&" />
+<img src ="https://cdn.discordapp.com/attachments/969419278526844949/1224207990769582120/image.png?ex=661ca789&is=660a3289&hm=77c51af61e579b6c5043358e0203208546903733858a9351f4d5bb3add402128&" />
 
 <h2>:bookmark_tabs: Descrição</h2>
 <p>Portfólio criado com o objetivo de apresentar meus trabalhos e habilidades para visitantes que estejam interessados em conhecer mais sobre mim como desenvolvedor. Com o uso de tecnologias modernas e atuais, o projeto é uma representação clara da minha experiência e habilidades técnicas.</p>
