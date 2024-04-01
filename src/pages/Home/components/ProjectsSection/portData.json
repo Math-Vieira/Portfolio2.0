@@ -6,7 +6,7 @@
             "projectRepo": "https://github.com/Math-Vieira/user-register",
             "projectUrl": "",
             "status": "Concluído",
-            "projectImage": "https://cdn.discordapp.com/attachments/1118878755960651878/1214587842630516816/image.png?ex=65f9a813&is=65e73313&hm=678a05130cbf213dbdbde0afb8e2eb5d1b463cd7938d0a525ff54925d37be584&",
+            "projectImage": "https://cdn.discordapp.com/attachments/969419278526844949/1224207655430520883/image.png?ex=661ca739&is=660a3239&hm=d40e05ef1248b7985c9b0263cc6dc917e9e5b33a513dbefd16163dd9c81b3dc1&",
             "projectDescription": "Aplicação desenvolvida para demonstrar conceitos básicos como CRUD, autenticação e rate limit. Todas as informações estão no readme."
         },
         {
@@ -15,7 +15,7 @@
             "projectRepo": "https://github.com/Math-Vieira/Portfolio2.0",
             "projectUrl": "https://portfolio2-0-lime.vercel.app/",
             "status": "Concluído",
-            "projectImage": "https://cdn.discordapp.com/attachments/507679675007369231/1213673492692860928/image.png?ex=65f65485&is=65e3df85&hm=262aabe22a714e9e6eb3db7d1a3357242395748fd8df69ac8b1eca729aeb252a&",
+            "projectImage": "https://cdn.discordapp.com/attachments/969419278526844949/1224207990769582120/image.png?ex=661ca789&is=660a3289&hm=77c51af61e579b6c5043358e0203208546903733858a9351f4d5bb3add402128&",
             "projectDescription": "Projeto criado para apresentar meus trabalhos e habilidades aos visitantes interessados em conhecer mais sobre mim."
         },
         {
@@ -24,7 +24,7 @@
             "projectRepo": "https://github.com/Math-Vieira/deezer-app",
             "projectUrl": "https://deezer-app-mv.vercel.app/",
             "status": "Concluído",
-            "projectImage": "https://cdn.discordapp.com/attachments/507679675007369231/1213673576373420032/image.png?ex=65f65499&is=65e3df99&hm=9823c18cb655c96b05ff75a11381b1c0949429fe0db42847bd2e0828b24e0b90&",
+            "projectImage": "https://cdn.discordapp.com/attachments/969419278526844949/1224208634783989780/image.png?ex=661ca823&is=660a3323&hm=1e7d98809bdd33062aa7dd1039e38d9bf189c46f2df18fb341d0ae6bc0b4f947&",
             "projectDescription": "Este projeto é uma aplicação web desenvolvida com React que permite pesquisar músicas e visualizar as mais populares utilizando a API do Deezer."
         },
         {
@@ -33,7 +33,7 @@
             "projectRepo": "https://github.com/Math-Vieira/deezer-api-consumer",
             "projectUrl": "",
             "status": "Concluído",
-            "projectImage": "https://cdn.discordapp.com/attachments/507679675007369231/1213673730560106516/image-blog-getting-most-api-management-600x400-1.png?ex=65f654be&is=65e3dfbe&hm=103e0935e0f648eb11e55f70c954ee19cb1122810557fd178800140993c537ea&",
+            "projectImage": "https://cdn.discordapp.com/attachments/969419278526844949/1224208333385371658/download.png?ex=661ca7db&is=660a32db&hm=28377290fabc647e9e5b79e4914f304528b4d75d9343df83f59362548d13f11a&",
             "projectDescription": "Este projeto é uma API que utiliza a API do Deezer para oferecer funcionalidades de busca e chart (músicas mais atuais) aos usuários. "
         }, 
         {
@@ -42,7 +42,7 @@
             "projectRepo": "https://github.com/Math-Vieira/api-clean-arch",
             "projectUrl": "",
             "status": "Em andamento",
-            "projectImage": "https://cdn.discordapp.com/attachments/507679675007369231/1213704797925154908/0iU9Ks05_GTtGh6zV.png?ex=65f671ad&is=65e3fcad&hm=c91d5a93bbbf61031782ed520e4ae4034e7203356cc1c9bc136505d200af67db&",
+            "projectImage": "https://cdn.discordapp.com/attachments/969419278526844949/1224209009507172391/0iU9Ks05_GTtGh6zV.png?ex=661ca87c&is=660a337c&hm=b2eef9e83e235ffa7d7db61fede345d2702ddc758f707ff3d389809cbb6958b5&",
             "projectDescription": "API construída utilizando conceitos de arquitetura limpa, SOLID e design patterns. NodeJS e TypeScript estão sendo utilizados na sua construção."
         },
         {
