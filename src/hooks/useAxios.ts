@@ -14,7 +14,7 @@ type Request = {
 	headers?: RawAxiosRequestHeaders;
 };
 
-const API = "https://api-portfolio-8l3n.onrender.com/";
+const API = "https://api-portfolio-j3wh.onrender.com/";
 axios.defaults.baseURL = API;
 
 const useAxios = () => {
