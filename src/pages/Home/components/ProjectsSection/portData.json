@@ -6,7 +6,7 @@
             "projectRepo": "https://github.com/Math-Vieira/user-register",
             "projectUrl": "",
             "status": "Concluído",
-            "projectImage": "https://cdn.discordapp.com/attachments/969419278526844949/1224207655430520883/image.png?ex=661ca739&is=660a3239&hm=d40e05ef1248b7985c9b0263cc6dc917e9e5b33a513dbefd16163dd9c81b3dc1&",
+            "projectImage": "https://cdn.discordapp.com/attachments/969419278526844949/1224207655430520883/image.png?ex=6671aff9&is=66705e79&hm=5eddfcc9271a8e455b86abbc69ddf73fd9202cb5ba66bc926a1fecb9b4a3c8de&",
             "projectDescription": "Aplicação desenvolvida para demonstrar conceitos básicos como CRUD, autenticação e rate limit. Todas as informações estão no readme."
         },
         {
@@ -15,7 +15,7 @@
             "projectRepo": "https://github.com/Math-Vieira/Portfolio2.0",
             "projectUrl": "https://portfolio2-0-lime.vercel.app/",
             "status": "Concluído",
-            "projectImage": "https://cdn.discordapp.com/attachments/969419278526844949/1224207990769582120/image.png?ex=661ca789&is=660a3289&hm=77c51af61e579b6c5043358e0203208546903733858a9351f4d5bb3add402128&",
+            "projectImage": "https://cdn.discordapp.com/attachments/969419278526844949/1224207990769582120/image.png?ex=6671b049&is=66705ec9&hm=9500cf45450ef1e03457c0f9539e7ce9cf2d0a1527ae2a380a324c25da928bed&",
             "projectDescription": "Projeto criado para apresentar meus trabalhos e habilidades aos visitantes interessados em conhecer mais sobre mim."
         },
         {
@@ -24,7 +24,7 @@
             "projectRepo": "https://github.com/Math-Vieira/deezer-app",
             "projectUrl": "https://deezer-app-mv.vercel.app/",
             "status": "Concluído",
-            "projectImage": "https://cdn.discordapp.com/attachments/969419278526844949/1224208634783989780/image.png?ex=661ca823&is=660a3323&hm=1e7d98809bdd33062aa7dd1039e38d9bf189c46f2df18fb341d0ae6bc0b4f947&",
+            "projectImage": "https://cdn.discordapp.com/attachments/969419278526844949/1224208634783989780/image.png?ex=6671b0e3&is=66705f63&hm=3dc2d8a2a7a2f5b1d21b074f3f7b8a04b9a2075e6df0beb87ae27f8538187de1&",
             "projectDescription": "Este projeto é uma aplicação web desenvolvida com React que permite pesquisar músicas e visualizar as mais populares utilizando a API do Deezer."
         },
         {
@@ -33,7 +33,7 @@
             "projectRepo": "https://github.com/Math-Vieira/deezer-api-consumer",
             "projectUrl": "",
             "status": "Concluído",
-            "projectImage": "https://cdn.discordapp.com/attachments/969419278526844949/1224208333385371658/download.png?ex=661ca7db&is=660a32db&hm=28377290fabc647e9e5b79e4914f304528b4d75d9343df83f59362548d13f11a&",
+            "projectImage": "https://cdn.discordapp.com/attachments/969419278526844949/1224208333385371658/download.png?ex=6671b09b&is=66705f1b&hm=da998b83ddd0f2408ce505f4448c5f814fd22c75cb147eac0b08ffec12c4ef3c&",
             "projectDescription": "Este projeto é uma API que utiliza a API do Deezer para oferecer funcionalidades de busca e chart (músicas mais atuais) aos usuários. "
         }, 
         {
@@ -42,7 +42,7 @@
             "projectRepo": "https://github.com/Math-Vieira/api-clean-arch",
             "projectUrl": "",
             "status": "Em andamento",
-            "projectImage": "https://cdn.discordapp.com/attachments/969419278526844949/1224209009507172391/0iU9Ks05_GTtGh6zV.png?ex=661ca87c&is=660a337c&hm=b2eef9e83e235ffa7d7db61fede345d2702ddc758f707ff3d389809cbb6958b5&",
+            "projectImage": "https://cdn.discordapp.com/attachments/969419278526844949/1224209009507172391/0iU9Ks05_GTtGh6zV.png?ex=6671b13c&is=66705fbc&hm=ea56f37988db98e71682923d6a895f6d6645a4da29ee1c12801ab230742bcf9a&",
             "projectDescription": "API construída utilizando conceitos de arquitetura limpa, SOLID e design patterns. NodeJS e TypeScript estão sendo utilizados na sua construção."
         },
         {
@@ -51,7 +51,7 @@
             "projectRepo": "https://github.com/Math-Vieira/countries",
             "projectUrl": "https://countries-math-vieira.vercel.app/",
             "status": "Concluído",
-            "projectImage": "https://camo.githubusercontent.com/9673641b7e5ed4990896047df0cbd898659a17bd2791ab34da1176b6981dd509/68747470733a2f2f63646e2e646973636f72646170702e636f6d2f6174746163686d656e74732f3938323438353931363532343335353633342f313031373132383831313633383330343931302f756e6b6e6f776e2e706e67",
+            "projectImage": "https://cdn.discordapp.com/attachments/969419278526844949/1252430135852924978/image.png?ex=66722ff5&is=6670de75&hm=e6092a8795403f6f4e4ee047fdde9eddca454b2036854694f4700c4973dc4597&",
             "projectDescription": "Aplicação desenvolvida em React que lista todos os países do mundo com várias informações a respeito de cada um. É um desafio do site Frontend Mentor."
         }
     ]
