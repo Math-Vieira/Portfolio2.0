@@ -2,28 +2,28 @@
     "experiences": [
         {
             "company": "Dotkon",
-            "description": "Desenvolvedor frontend responsável por desenvolver novas interfaces dentro de um sistema farmacêutico ainda em desenvolvimento. As principais tecnologias utilizadas são: TypeScript, React, Styled Components, Sass, React Query e antd.",
+            "description": "Contribuo ativamente em projetos React/TypeScript, implementando interfaces responsivas e interativas. Integrei APIs RESTful para otimizar a comunicação entre front-end e backend, garantindo uma experiência de usuário fluida. Demonstrei habilidades sólidas em gerenciamento de estado com Redux e Context API, assegurando a eficiência do fluxo de dados.",
             "start": "2023",
             "end": "Atualmente",
             "linkedin": "https://www.linkedin.com/company/dotkon/"
         },
         {
             "company": "ClusterVet",
-            "description": "Desenvolvedor encarregado de desenvolver interfaces em um sistema veterinário utilizandando Javascript, Typescript, VueJS, Vuetify e NestJS.",
+            "description": "Desenvolvedor fullstack especializado em Vue.js, TypeScript e nestjs. Desempenhei um papel-chave na criação de interfaces dinâmicas e responsivas para um projeto veterinário. Ao integrar eficientemente APIs e aplicar Vuex para a gestão de estado, alcancei uma aplicação ágil e de alto desempenho.",
             "start": "2023",
             "end": "2023",
             "linkedin": "https://www.linkedin.com/company/cluster-vet/"
         },
         {
             "company": "Suporte Gerencial",
-            "description": "Responsável por desenvolver novas funcionalidades em um sistema de gestão educacional, utilizando as tecnologias React.js, Node.js, MySQL, TypeScript e styled components. Adoto a metodologia ágil Scrum e realizo o desenvolvimento e a integração de API's.",
+            "description": "Desenvolvedor FullStack especializado em React, TypeScript, Next.js e NestJS. Experiência sólida no desenvolvimento frontend, integração de APIs e gerenciamento de estado com Redux. Destaco minha contribuição para um sistema de gestão educacional robusto, abrangendo desde interfaces inovadoras até a lógica de negócios eficiente no backend. Conhecimento em bancos de dados relacionais e não relacionais, otimizando consultas SQL e modelagem eficaz para MongoDB.",
             "start": "2022",
             "end": "2023",
             "linkedin": "https://www.linkedin.com/company/suporte-gerencial/"
         },
         {
             "company": "Serpens",
-            "description": "Encarregado de desenvolver interfaces de fácil entendimento, responsivas e agradáveis aos usuários, utilizando ReactJS, TypeScript, Styled components, Next, Sass e integrações de API’s.",
+            "description": "Programador iniciante com experiência em projetos freelancers, focado em React e Next.js. Colaborei em desenvolvimento frontend, aprimorando habilidades na construção de interfaces responsivas e dinâmicas.",
             "start": "2021",
             "end": "2022",
             "linkedin": "https://www.linkedin.com/company/agenciaserpens/"
