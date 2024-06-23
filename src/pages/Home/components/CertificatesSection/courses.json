@@ -1,6 +1,14 @@
 {
     "courses": [
         {
+            "courseName": "NodeJs Avançado",
+            "institution": "Udemy",
+            "duration": "26 horas",
+            "instructor": "Jorge Aluizio",
+            "certificate": "https://www.udemy.com/certificate/UC-aeae43e9-bba7-444c-b9a3-12f52c474db0/",
+            "conclusion": "2024"
+        },
+        {
             "courseName": "Testing React with Jest",
             "institution": "Udemy",
             "duration": "7 horas",
